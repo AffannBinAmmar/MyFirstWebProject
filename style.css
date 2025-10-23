@@ -1,72 +1,116 @@
+#color{
+  background-color: #09a85e;
+  height: 800px;
+  padding-top: 50px;
+}
+
 body {
-  background-image: url("background.jpg");
-  text-align: center;
-  font-family: Arial, sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
+  background-color: #e4f0ef;
+  margin: 0;
+  padding: 0;
 }
 #back{
-background-color: white;
-padding-top: 20px;
-margin-left: 80px;
-margin-right: 80px;
-padding-bottom: 50px;
-
-
-}
-#Journal{ 
-  margin-top: -20px;
-  padding-top: 5px;
-  margin-top: 5px;
   background-color: #A8F0EF;
 }
-#Name{
-text-align: right;
-color: #3CB8B8;
 
+#container {
+  width: 800px;
+  margin: 20px auto;
+  background-color: white;
+  border: 3px solid #c6e8e4;
+  padding: 10px;
 }
-#Subname{
+
+#header {
   text-align: right;
-  margin-top: -1%;
-  color: #3CB8B8;
-}
-#Friends{
-background-color: #3FE0D0;
-text-align: left;
-width: 200px;
-height: 120px;
-margin-left: 20px;
-border-color: black;   
-
-} 
-#leftname{
-  padding-top: 10px;
-margin-left: 20px ;
-color:aquamarine;
-
+  color: #3ca8a8;
+  border-bottom: 3px solid #c6e8e4;
+  padding: 10px;
 }
 
-#Top{
-  text-align: left;
-  color: red;
+#header h1 {
+  margin: 0;
+  font-size: 28px;
 }
-#sec{
-  text-align: left;
+
+#subtitle {
+  margin: 0;
+  font-size: 14px;
+  color: #69bfbf;
+}
+
+#maincontent {
+  display: flex;
+  padding: 10px;
+}
+
+#friends {
+  width: 180px;
+  height: 130px;
+  background-color: #5dd0cc;
+  padding: 10px;
+  border: 2px solid #3ca8a8;
+  margin-right: 15px;
+}
+
+#friends h2 {
+  font-size: 20px;
+  color: #2c8686;
+  border-bottom: 2px solid #2c8686;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+#friends ul {
+  padding-left: 20px;
+}
+#First{
+font-size: small;
+color: red ;
+}
+#Second{
+  font-size: small;
   color: white;
 }
 #Third{
- text-align: left;
- color: red;
+font-size: small;
+color: red;
+}
+   
 
+#entry1, #entry2 {
+  background-color: #e4f9f8;
+  border: 2px solid #c6e8e4;
+  margin-bottom: 15px;
+  padding: 10px;
 }
-#Right{
-background-color: #E8FAFA;
-display: inline-block;
-width: 500px;
-padding-right: 300px;
-padding-left: 200px;
-padding-bottom: 70px;
-margin-top: -100px;
-}
-#Spatulus{
-  text-align:left;
 
+#entry1 h3, #entry2 h3 {
+  color: #00a6a6;
+  font-size: 18px;
+  margin-top: 0;
+  border-bottom: 2px dashed #00a6a6;
+  padding-bottom: 4px;
 }
+#entry1content img, #entry2content img {
+  width: 100px;
+  height: auto;
+  border: 2px solid #ccc;
+}
+  
+
+
+#entry1content, #entry2content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#entry1content p, #entry2content p {
+  width: 75%;
+  color: #7a6666;
+  line-height: 1.5;
+  margin: 0;
+}
+
