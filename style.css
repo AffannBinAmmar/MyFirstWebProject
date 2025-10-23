@@ -1,13 +1,72 @@
 body {
-  background-color: #f2f2f2;
+  background-image: url("background.jpg");
   text-align: center;
   font-family: Arial, sans-serif;
 }
+#back{
+background-color: white;
+padding-top: 20px;
+margin-left: 80px;
+margin-right: 80px;
+padding-bottom: 50px;
 
-h1 {
-  color: #2c3e50;
+
+}
+#Journal{ 
+  margin-top: -20px;
+  padding-top: 5px;
+  margin-top: 5px;
+  background-color: #A8F0EF;
+}
+#Name{
+text-align: right;
+color: #3CB8B8;
+
+}
+#Subname{
+  text-align: right;
+  margin-top: -1%;
+  color: #3CB8B8;
+}
+#Friends{
+background-color: #3FE0D0;
+text-align: left;
+width: 200px;
+height: 120px;
+margin-left: 20px;
+border-color: black;   
+
+} 
+#leftname{
+  padding-top: 10px;
+margin-left: 20px ;
+color:aquamarine;
+
 }
 
-p {
-  color: #555;
+#Top{
+  text-align: left;
+  color: red;
+}
+#sec{
+  text-align: left;
+  color: white;
+}
+#Third{
+ text-align: left;
+ color: red;
+
+}
+#Right{
+background-color: #E8FAFA;
+display: inline-block;
+width: 500px;
+padding-right: 300px;
+padding-left: 200px;
+padding-bottom: 70px;
+margin-top: -100px;
+}
+#Spatulus{
+  text-align:left;
+
 }
