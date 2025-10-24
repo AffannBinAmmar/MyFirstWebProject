@@ -50,7 +50,7 @@ body {
   height: 130px;
   background-color: #5dd0cc;
   padding: 10px;
-  border: 2px solid #3ca8a8;
+  border: 5px solid #3ca8a8;
   margin-right: 15px;
 }
 
@@ -89,7 +89,6 @@ color: red;
   color: #00a6a6;
   font-size: 18px;
   margin-top: 0;
-  border-bottom: 2px dashed #00a6a6;
   padding-bottom: 4px;
 }
 #entry1content img, #entry2content img {
