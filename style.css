@@ -41,7 +41,7 @@ body {
 }
 
 #maincontent {
-  display: flex;
+  display: flex;     
   padding: 10px;
 }
 
